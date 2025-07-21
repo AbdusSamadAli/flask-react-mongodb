@@ -17,7 +17,7 @@ def upload_file():
     file_id = upload_file_to_gridfs(file)
 
     return jsonify({
-        'message': 'File uploaded successfully',
+        'message': 'File is uploaded successfully',
         'file_id': file_id
     })
 
