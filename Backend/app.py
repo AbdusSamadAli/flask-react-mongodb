@@ -10,7 +10,7 @@ app.register_blueprint(file_routes)
 
 @app.route('/')
 def home():
-    return jsonify({'message': 'Flask API with MongoDB is Running!'})
+    return jsonify({'message': 'Flask API is Running!'})
 
 if __name__ == '__main__':
     app.run(debug=True, port=PORT)
